@@ -23,7 +23,7 @@ Ou, aperte [V], [B] ou [N] para agir respectivamente nos eixos x, y e z no senti
  A camera as vezes pode estar muito perto ou dentro do objeto,
 entao mova-se um pouco caso nao enxergue o modelo corretamente.
 
-As vezes a tela da opengl surge minimazada, ou atras da tela de comando.
+As vezes a tela da opengl surge minimazada, ou a tras da tela de comando.
 
 O arquivo .ply precisa estar triangularizado para funcinoar corretamente.
 Caso n tenha imagem de textura ou ela não abra por algum motivo (digitou errado, n é suportada pela SOIL),

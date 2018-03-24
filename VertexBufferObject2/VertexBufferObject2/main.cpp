@@ -48,7 +48,7 @@ GLfloat lastY = g_gl_height / 2.0;
 GLfloat deltaTime = 0.0f;	// Time between current frame and last frame
 GLfloat lastFrame = 0.0f;  	// Time of last frame
 
-//Mesh, tex and user input variables
+							//Mesh, tex and user input variables 
 Mesh mesh;
 vector<Texture> tex;
 string nometex;
@@ -300,31 +300,31 @@ int main() {
 
 	//OTHER STUFF GOES HERE NEXT
 	GLfloat points[] = {
-		 0.0f,	0.5f,	0.0f, // 0
-		 0.5f, -0.5f,	0.0f, // 1
-		-0.5f, -0.5f,	0.0f, // 2
-		0.5f,	0.5f,	0.0f, // 3
-		0.8f,	0.2f,	0.0f, // 4
-		0.5f,	-0.5f,	0.0f, // 1
+	0.0f,	0.5f,	0.0f, // 0
+	0.5f, -0.5f,	0.0f, // 1
+	-0.5f, -0.5f,	0.0f, // 2
+	0.5f,	0.5f,	0.0f, // 3
+	0.8f,	0.2f,	0.0f, // 4
+	0.5f,	-0.5f,	0.0f, // 1
 	};
 
 	GLfloat colours[] = {
-		1.0f, 1.0f,  0.0f,
-		0.0f, 1.0f,  1.0f,
-		1.0f, 0.0f,  1.0f,
-		1.0f, 0.0f,  0.0f,
-		0.0f, 1.0f,  0.0f,
-		0.0f, 0.0f,  1.0f
+	1.0f, 1.0f,  0.0f,
+	0.0f, 1.0f,  1.0f,
+	1.0f, 0.0f,  1.0f,
+	1.0f, 0.0f,  0.0f,
+	0.0f, 1.0f,  0.0f,
+	0.0f, 0.0f,  1.0f
 	};
 	GLfloat vertices[] = {
-		0.5f,  0.5f, 0.0f,  // Top Right
-		0.5f, -0.5f, 0.0f,  // Bottom Right
-		-0.5f, -0.5f, 0.0f,  // Bottom Left
-		-0.5f,  0.5f, 0.0f   // Top Left
+	0.5f,  0.5f, 0.0f,  // Top Right
+	0.5f, -0.5f, 0.0f,  // Bottom Right
+	-0.5f, -0.5f, 0.0f,  // Bottom Left
+	-0.5f,  0.5f, 0.0f   // Top Left
 	};
 	GLuint indices[] = {  // Note that we start from 0!
-		0, 1, 3,   // First Triangle
-		1, 2, 3    // Second Triangle
+	0, 1, 3,   // First Triangle
+	1, 2, 3    // Second Triangle
 	};
 
 	Vertex a1, a2, a3, a4;
@@ -360,7 +360,7 @@ int main() {
 	glGenBuffers(1, &ebo);
 	glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, ebo);
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indices),
-		indices, GL_STATIC_DRAW);
+	indices, GL_STATIC_DRAW);
 
 	//  create the VAO.
 	//we bind each VBO in turn, and call glVertexAttribPointer() to indicate where
