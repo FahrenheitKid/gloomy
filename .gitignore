@@ -13,17 +13,11 @@
 *.userprefs
 
 # Build results
-/VertexBufferObject2/Debug/*
-!/VertexBufferObject2/Debug/*.dll
-/VertexBufferObject2/Debug/*
-!/VertexBufferObject2/Debug/*.dll
-/VertexBufferObject2/Release/*
-!/VertexBufferObject2/Release/*.dll
 #[Dd]ebug/
 [Dd]ebugPublic/
 #[Rr]elease/
 [Rr]eleases/
-x64/
+#x64/
 x86/
 bld/
 [Bb]in/
